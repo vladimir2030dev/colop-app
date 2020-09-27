@@ -6,7 +6,6 @@ export const Hexcode = (props) => {
         height: 30,
         color: props.colorHex
     }
-
     return (
         <div style={styleHexCode}>
             {props.colorHex}
